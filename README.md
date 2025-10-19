@@ -6,3 +6,6 @@ A partir do código do professor, corrigir o método cadastrarAlunos e criar o t
 
 ## [Teste Números](https://github.com/fernandalopesbarbalho/testes-ifsp-semestre6/tree/main/teste_numeros) - 12/10/2025
 A partir do código do professor, corrigir o método converte e criar casos de teste para os números: I, V, II, XXII, IX e XXIV.
+
+## [Teste Stubs](https://github.com/fernandalopesbarbalho/testes-ifsp-semestre6/tree/main/teste_stubs) - 19/10/2025
+A partir do código do professor, testar o método que realiza a persistência da classe Aluno em um banco de dados MongoDB.
