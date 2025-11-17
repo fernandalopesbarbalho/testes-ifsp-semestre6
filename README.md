@@ -9,3 +9,6 @@ A partir do código do professor, corrigir o método converte e criar casos de t
 
 ## [Teste Stubs](https://github.com/fernandalopesbarbalho/testes-ifsp-semestre6/tree/main/teste_stubs) - 19/10/2025
 A partir do código do professor, testar o método que realiza a persistência da classe Aluno em um banco de dados MongoDB.
+
+## [Teste Integração](https://github.com/fernandalopesbarbalho/testes-ifsp-semestre6/tree/main/teste_integracao) - 17/11/2025
+A partir do código do professor, criar um [Workflow](https://github.com/fernandalopesbarbalho/testes-ifsp-semestre6/tree/main/.github/workflows).
