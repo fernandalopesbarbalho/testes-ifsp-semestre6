@@ -1,0 +1,30 @@
+name: Testar cadastro de usuários e turma - Fernanda Barbalho PT302525X
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'teste_integracao/**'
+  pull_request:
+    branches: [ "main" ]
+    paths:
+      - 'teste_integracao/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false      
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v3
+      with:
+        python-version: 3.9
+        
+    - name: Executar Testes
+      run: |
+        cd teste_integracao/
+        python testes.py
